@@ -12,7 +12,7 @@ export const authOptions: NextAuthOptions = {
   pages: {
     signIn: "/auth/signin",     // custom sign in page
     error: "/auth/error",       // Error code passed in query string as ?error=
-    verifyRequest: "/auth/verify-request", // (for email provider)
+    //verifyRequest: "/auth/verify-request", // (for email provider)
     //newUser: "/auth/signup",    // Redirect here after registration (optional)
     //signOut: "/auth/signout",   // optional
   },
